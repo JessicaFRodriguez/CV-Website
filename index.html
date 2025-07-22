@@ -4,23 +4,49 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV Website</title>
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+        <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo de estilos -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet"> <!-- Íconos de Boxicons -->
     </head>
     <body>
 
-        <header class="header">
-            <a href="#home" class="logo">Jessica<span> Rodriguez</span></a>
+        <header class="header"> <!-- Encabezado con logo y barra de navegación -->
+            <a href="#home" class="logo">Jessica<span> Rodriguez</span></a> <!-- Logo -->
 
-            <i class='bx  bx-menu' id="menu-icon"></i> 
+            <i class='bx  bx-menu' id="menu-icon"></i> <!-- Ícono del menú (visible en móviles) -->
 
-            <nav class="navbar">
+            <nav class="navbar"> <!-- Navegación del sitio -->
                 <a href="#home" class="active">Home</a>
                 <a href="#education">Education</a>
                 <a href="#services">Services</a>
                 <a href="#contact">Contact</a>
             </nav>
         </header>
-        <script src="script.js"></script>
+
+        <section class="home" id="home"> <!-- Sección principal de bienvenida -->
+            <div class="home-content"> <!-- Contenido textual de bienvenida -->
+                <h1>Hi, It's <span>Jessica</span></h1>
+                <h3 class="text-animation">I'm a <span></span></h3>
+                <p> <!-- Texto de presentación -->
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <div class="social-icons"> <!-- Íconos de redes sociales -->
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+
+                <div class="btn-group"> <!-- Botones de acción -->
+                    <a href="#" class="btn">Hire</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+            </div>
+                <div class="home-img"> <!-- Imagen principal o de perfil -->
+                    <img src="image.jpg" alt="">
+                </div>
+            
+        </section>
+        <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
     </body>
 </html>
